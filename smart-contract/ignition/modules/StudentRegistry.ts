@@ -12,7 +12,7 @@ const StudentRegistryModule = buildModule("PersonRegistryModule", (m) => {
 
   const simple = m.contract("StudentRegistry");
 
-  return { simple };
+  return { simple }; 
 });
 
 export default StudentRegistryModule;
